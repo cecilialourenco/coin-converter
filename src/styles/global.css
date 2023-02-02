@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.button:hover,
+.switch:hover {
+  transform: scale(1.1);
+  background-color: forestgreen;
+  color: rgb(226, 252, 184);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.container {
+  /* height: 300px; */
+  width: calc(80%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+input {
+  padding-left: 5px;
+  font-size: 20px;
+  height: 36px;
+}
+.middle,
+.right {
+  width: 120px;
+}
+
+.result {
+  box-sizing: border-box;
+  width: 800px;
+  padding-left: 30px;
+}
+button,
+.switch {
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid forestgreen;
+  background-color: rgb(226, 252, 184);
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: forestgreen;
+}
+p,
+h3,
+button,
+.switch {
+  color: forestgreen;
+}
+p {
+  font-size: 30px;
+}
