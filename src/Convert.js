@@ -80,7 +80,7 @@ function Convert() {
           placeholder="Enter the amount"
         />
 
-        <input type="text" value={output} disabled />
+        <input type="text" value={output.toFixed(2)} disabled />
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <button className="button" onClick={convert}>
